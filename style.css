@@ -1,0 +1,79 @@
+/* Fonts and colors */
+body {
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+  }
+  h1, h2 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bold;
+  }
+  h2 {
+    color: #A0A0A0;
+    font-weight: normal;
+  }
+  a {
+    text-decoration: none;
+    color: #4352A1;
+  }
+  
+  /* Custom design */
+  .banner {
+    background-image: url("https://scontent.fscl13-2.fna.fbcdn.net/v/t1.6435-9/150803416_10225164509360961_4457269305998244013_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeHTCpCENe2upoP3jfDSm2_iWXPPixaoGuhZc8-LFqga6KlnwgX69CegILYZmA5zVjU&_nc_ohc=KTVM_YSXgGUAX--CQbA&_nc_ht=scontent.fscl13-2.fna&oh=0dcc3185ad3c44894af2f8bcb7f27531&oe=60F12DFD");
+    background-size: cover;
+    color: rgb(117, 9, 9);
+    padding: 120px 0;
+  }
+  .banner h1 {
+    font-size: 38px;
+  }
+  .banner p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.8;
+  }
+  .container {
+    width: 700px;
+    margin: 50px auto;
+  }
+  .link-medium {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+  }
+  .link-medium:hover {
+    background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
+  }
+  
+  /* Media queries */
+  @media(max-width: 900px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media(max-width: 750px) {
+    .container {
+      width: 450px;
+    }
+  }
+  @media(max-width: 500px) {
+    .container {
+      width: 350px;
+    }
+    .banner {
+      padding: 50px 0;
+    }
+    .banner h1 {
+      font-size: 30px;
+    }
+    .banner p {
+      font-size: 20px;
+    }
+  }
+  
